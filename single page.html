@@ -10,15 +10,15 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
 </head>
 
 <body>
     <header class="top">
         <div class="container top-header">
             <div class="top-left">
-                <a class="logo" href="#"><img src="img/logo1.png" alt="logo">
+                <a class="logo" href="index.html"><img src="img/logo1.png" alt="logo">
                     <p>BRAN<span>D</span></p>
                 </a>
                 <form class="top-form" action="#">
@@ -442,279 +442,215 @@
             </ul>
         </div>
     </nav>
-    <div class="banner">
-        <div class="container banner-block">
-            <div class="banner-text">
-                <p class="the-brand">THE BRAND</p>
-                <p class="text-fashion">OF LUXERIOUS <span class="span-fashion">FASHION</span></p>
+    <div class="title">
+        <h1>New Arrivals</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Men</a></li>
+                <li><a href="#"></a> New Arrivals</a></li>
+            </ol>
+        </nav>
+    </div>
+    <section>
+        <div class="slide">
+            <img class="product-photo-slide" src="img/_main_photo_SP.png" alt="productphoto">
+            <img class="arrow-left" src="img/fake-arrow_left.png">
+            <img class="arrow-right" src="img/fake-arrow_right.png">
+            <div class="slide-text">
+                <div>women collection</div>
+            </div>
+        </div>
+        <div class="also container">
+            <div class="product-description">
+                <h2>Moschino Cheap And Chic</h2>
+                <p class="article">
+                    Compellingly actualize fully researched processes before proactive outsourcing.
+                    Progressively
+                    syndicate collaborative architectures before cutting-edge services. Completely visualize
+                    parallel
+                    core competencies rather than exceptional portals.
+                </p>
+                <div class="description-text">
+                    <p class="text-right">MATERIAL: COTTON</p>
+                    <p class="text-left">DESIGNER: BINBURHAN</p>
+                </div>
+                <p class="price">$561</p>
+            </div>
+            <form class="single-page-form">
+                <div class="inputs">
+                    <div class="form-fields">
+                        <label for="color" class="form-label">choose color</label>
+                        <select class="form-field" name="color" id="">
+                            <option selected value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="white">White</option>
+                        </select>
+                    </div>
+                    <div class="form-fields">
+                        <label for="size" class="form-label">choose size</label>
+                        <select class="form-field" name="size" id="">
+                            <option selected value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div class="form-fields">
+                        <label class="form-label" for=“quantity“>Quantity </label>
+                        <input class="form-field" type=“number” placeholder="2" min=“1” max=“10”>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <img class="form-button-cart" src="img/cart-pink.svg" alt="cart">
+                    <a class="form-button-text" href="#">Add to cart</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="You may like also">
+        <div class="also-like container">
+            <h1 class="al-header">you may like also</h1>
+            <div class="also-like-product">
+                <div class="al-item">
+                    <a href="single page.html" class="al-product">
+                        <img class="al-product-img" src="img/al-product.png" alt="product photo">
+                        <div class="al-product-text-box">
+                            <p class="al-product-text">Mango People T-shirt</p>
+                            <p class="al-product-price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="al-product-box-add">
+                        <a class="al-add" href="#"><img class="al-add-img" src="img/cart_add.svg" alt="cart-img">Add to
+                            cart</a>
+                    </div>
+                </div>
+
+                <div class="al-item">
+                    <a href="single page.html" class="al-product">
+                        <img class="al-product-img" src="img/al-product3.png" alt="product photo">
+                        <div class="al-product-text-box">
+                            <p class="al-product-text">Mango People T-shirt</p>
+                            <p class="al-product-price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="al-product-box-add">
+                        <a class="al-add" href="#"><img class="al-add-img" src="img/cart_add.svg" alt="al-cart-img">Add
+                            to
+                            cart</a>
+                    </div>
+                </div>
+
+                <div class="al-item">
+                    <a href="single page.html" class="al-product">
+                        <img class="al-product-img" src="img/al-product3.png" alt="product photo">
+                        <div class="al-product-text-box">
+                            <p class="al-product-text">Mango People T-shirt</p>
+                            <p class="al-product-price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="al-product-box-add">
+                        <a class="al-add" href="#"><img class="al-add-img" src="img/cart_add.svg" alt="cart-img">Add to
+                            cart</a>
+                    </div>
+                </div>
+
+                <div class="al-item">
+                    <a href="single page.html" class="al-product">
+                        <img class="al-product-img" src="img/al-product4.png" alt="product photo">
+                        <div class="al-product-text-box">
+                            <p class="al-product-text">Mango People T-shirt</p>
+                            <p class="al-product-price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="al-product-box-add">
+                        <a class="al-add" href="#"><img class="al-add-img" src="img/cart_add.svg" alt="cart-img">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="comunity">
+        <img src="img/com-pic.png" alt="com background" style="opacity:0.25;filter:alpha(opacity=25)">
+        <div class="comunity-container">
+            <div class="com-left">
+                <img src="img/foto_footer.png" alt="face">
+                <div class="com-lefttxt">
+                    <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                </div>
+                <div class="com-lefttxts">
+                    <p><b>Bin Burhan</b>
+                        <br>Dhaka, Bd
+                    </p>
+                </div>
+            </div>
+            <div class="com-center"></div>
+            <div class="com-right">
+                <div class="com-righttxt">
+                    <p>Subscribe</p>
+                    <span>FOR OUR NEWLETTER AND PROMOTION</span>
+                </div>
+                <div class="com-rightform">
+                    <input class="form-email" type="email" placeholder="Enter Your Email" aria-label="email">
+                    <button type="submit">Subscribe</button>
+                </div>
             </div>
         </div>
     </div>
-    <div class="hot-deals container">
-        <div class="hot-deals-col">
-            <a class="hot-deal" href="#">
-                <img src="img/hd-men.png" alt="photo">
-                <p>hot deal <span>for men</span></p>
-            </a>
-            <a class="hot-deal" href="#">
-                <img src="img/accses.png" alt="photo">
-                <p>LUXIROUS & trendy <span>ACCESORIES</span></p>
-            </a>
-        </div>
-        <div class="hot-deals-col">
-            <a class="hot-deal" href="#">
-                <img src="img/offer women.png" alt="photo">
-                <p>30% offer <span>women</span></p>
-            </a>
-            <a class="hot-deal" href="#">
-                <img src="img/for-kids.png" alt="photo">
-                <p>new arrivals <span>FOR kids</span></p>
-            </a>
+    <div class="container-footer-wrap">
+        <div class="container-footer">
+            <section class="footer-logotext">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+                    <p>bran<span>d</span></p>
+                </div>
+                <div class="footer-objec">
+                    <p>Objectively transition extensive data rather than cross functional
+                        solutions. Monotonectally syndicate multidisciplinary materials
+                        before go forward benefits. Intrinsicly syndicate an expanded array
+                        of processes and cross-unit partnerships.</p>
+                    <p class="footer-objec2">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies.
+                        Dynamically optimize.</p>
+                </div>
+            </section>
+            <nav class="futer-naverap">
+                <div class="footer-company">
+                    <h3>company</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-information">
+                    <h3>information</h3>
+                    <ul>
+                        <li><a href="#">Tearms &amp; Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">How to Buy</a></li>
+                        <li><a href="#">How to Sell</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </div>
+                <div class="footer-shop">
+                    <h3>shop category</h3>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Child</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Brows All</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
-    <section>
-        <div class="container items">
-            <div class="items-txt">
-                <h3>Fetured Items</h3>
-                <p>Shop for items based on what we featured in this week</p>
-            </div>
-            <div class="box-product">
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-1.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-2.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-3.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-4.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-5.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-6.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-7.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="single page.html" class="product">
-                        <img class="product-img" src="img/item-9.png" alt="product photo">
-                        <div class="product-text-box">
-                            <p class="product-text">Mango People T-shirt</p>
-                            <p class="product-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="box-add">
-                        <a class="add" href="#"><img class="add-img" src="img/cart_add.svg" alt="cart-img">Add to
-                            cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="bap">
-                <div class="baptxt">
-                    <a href="#" class="baplink">Browse All Products<i class="fas fa-long-arrow-alt-right"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="benefits container">
-            <div class="banner-offer">
-                <div class="banner-offer-text">
-                    <p class="discount-text">30% <span>OFFER</span></p>
-                    <p class="for-women">FOR WOMEN</p>
-                </div>
-            </div>
-            <div class="benefit-left">
-                <div class="benefit-block">
-                    <img src="img/delivery.svg">
-                    <div>
-                        <h3>Free Delivery</h3>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.
-                        </p>
-                    </div>
-                </div>
-                <div class="benefit-block">
-                    <img src="img/sales_discount.svg">
-                    <div>
-                        <h3>Sales & discounts</h3>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.
-                        </p>
-                    </div>
-                </div>
-                <div class="benefit-block">
-                    <img src="img/quality.svg">
-                    <div>
-                        <h3>Quality assurance</h3>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="comunity">
-            <img src="img/com-pic.png" alt="com background" style="opacity:0.25;filter:alpha(opacity=25)">
-            <div class="comunity-conteiner">
-                <div class="com-left">
-                    <img src="img/foto_footer.png" alt="face">
-                    <div class="com-lefttxt">
-                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
-                    </div>
-                    <div class="com-lefttxts">
-                        <p><b>Bin Burhan</b>
-                            <br>Dhaka, Bd
-                        </p>
-                    </div>
-                </div>
-                <div class="com-center"></div>
-                <div class="com-right">
-                    <div class="com-righttxt">
-                        <p>Subscribe</p>
-                        <span>FOR OUR NEWLETTER AND PROMOTION</span>
-                    </div>
-                    <div class="com-rightform">
-                        <input class="form-email" type="email" placeholder="Enter Your Email" aria-label="email">
-                        <button type="submit">Subscribe</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container-footer-wrap">
-            <div class="container-footer">
-                <section class="footer-logotext">
-                    <div class="footer-logo">
-                        <a href="#"><img src="img/logo1.png" alt="logo"></a>
-                        <p>bran<span>d</span></p>
-                    </div>
-                    <div class="footer-objec">
-                        <p>Objectively transition extensive data rather than cross functional
-                            solutions. Monotonectally syndicate multidisciplinary materials
-                            before go forward benefits. Intrinsicly syndicate an expanded array
-                            of processes and cross-unit partnerships.</p>
-                        <p class="footer-objec2">Efficiently plagiarize 24/365 action items and focused infomediaries.
-                            Distinctively seize superior initiatives for wireless technologies.
-                            Dynamically optimize.</p>
-                    </div>
-                </section>
-                <nav class="futer-naverap">
-                    <div class="footer-company">
-                        <h3>company</h3>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">How It Works</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-information">
-                        <h3>information</h3>
-                        <ul>
-                            <li><a href="#">Tearms &amp; Condition</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">How to Buy</a></li>
-                            <li><a href="#">How to Sell</a></li>
-                            <li><a href="#">Promotion</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-shop">
-                        <h3>shop category</h3>
-                        <ul>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Child</a></li>
-                            <li><a href="#">Apparel</a></li>
-                            <li><a href="#">Brows All</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </footer>
     <footer class="footer">
         <div class="footer-copy">
             <div class="copy">
@@ -729,9 +665,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
 
 </html>
