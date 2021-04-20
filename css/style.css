@@ -609,6 +609,8 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
+    /* background: url(../img/2-layers.png);
+    background-repeat: no-repeat; */
 }
 
 .comunity-container {
@@ -896,8 +898,12 @@ a {
 }
 
 /* Single Page  */
+.new_arrivals {
+    background-color: #f8f3f4;
+}
 .title {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #f8f3f4;
@@ -909,9 +915,9 @@ a {
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
-    margin-left: 234px;
+    /* margin-left: 234px; */
 
 
 }
@@ -920,8 +926,8 @@ a {
     list-style: none;
     font-family: "Lato Light";
     font-size: 14px;
-    padding: .75rem 1rem;
-    margin-right: 234px;
+    /* padding: .75rem 1rem;
+    margin-right: 234px; */
 }
 .breadcrumb li {
     color: #f16d7f;
@@ -1267,3 +1273,75 @@ form input:required {
 .al-add-img {
     margin-right: 7px;
 }
+
+.verticalmenu {
+    margin-top: 59px;
+}
+.db-menu-heading {
+    display: block;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 5px solid  #ef5b70;
+    height: 37px;
+}
+li {
+    list-style: none;
+}
+.db-checkbox {
+   
+} 
+.dropdown {
+    width: 243px;
+    margin-bottom: 15px;
+}
+.dropdown-menu {
+    padding-left: 15px;
+    line-height: 33px;
+}
+/* .little-container {
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+} */
+.product-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 71px;
+    margin-bottom: 41px;
+}
+.filter-box h2 {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+.filter-box {
+    width: 176px;
+}
+.filter-text {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
+.filter-box input {
+    margin-right: 9px;
+}
+.sort-by {
+    width: 100%;
+    height: 50px;
+    background-color: #f3f3f3;
+}
+
+
