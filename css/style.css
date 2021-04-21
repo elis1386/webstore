@@ -1292,29 +1292,32 @@ form input:required {
 li {
     list-style: none;
 }
-.db-checkbox {
-   
-} 
+ 
 .dropdown {
     width: 243px;
     margin-bottom: 15px;
+    position: relative;
 }
 .dropdown-menu {
     padding-left: 15px;
     line-height: 33px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
 }
-/* .little-container {
-    width: 70%;
-    float: right;
-    display: flex;
-    flex-direction: column;
-} */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}  
 .product-filters {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 71px;
     margin-bottom: 41px;
+}
+.filters-form {
+    width: 75%;
 }
 .filter-box h2 {
     color: #6f6e6e;
@@ -1343,5 +1346,75 @@ li {
     height: 50px;
     background-color: #f3f3f3;
 }
+.product-page-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product-item-list {
+    position: relative;
+    width: 263px;
+}
+.product-item-list:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+.product-list-img:hover {
+    filter: brightness(50%);
+}
+.product-list-text {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.product-list-price {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.black-banner {
+    background-color: #222224;
+}
+.product-banner-offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-benefit-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 89px;
+    margin-bottom: 114px;
+    width: 30%;
+}
+.product-benefit-block h3 {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 17px 0;
+
+}
+.product-benefit-block p {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+}
+.benefit-block-img {
+    margin-bottom: 32px;
+}
+.content-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
 
 
