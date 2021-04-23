@@ -1502,5 +1502,119 @@ li {
     padding: 16px 45px;
     line-height: 26px;
 }
+ /* SHOPPING CART */
+ .shop-cart_headings {
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-top: 90px;
+ }
 
+ .item-details {
 
+ }
+ .shop-cart_img {
+     margin-top: 20px;
+ }
+ .action-button {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 40px;
+ }
+ .shop-cart_action_button {
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 18px 35px;
+   
+ }
+ .shop-cart_order_form {
+     margin-top: 63px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+
+ }
+ .shop-cart_shipping_adress {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 32%;
+ }
+ .shop-cart_shipping_adress label {
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+ }
+ .shop_cart_button {
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 12px 14px;
+    margin-top: 20px;
+    width: 40%;
+ }
+ .form_frame {
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 16px 0 16px 18px;
+    margin-top: 20px;
+ } 
+ .shop-cart_coupon {
+     display: flex;
+     flex-direction: column;
+     width: 32%;
+ }
+ .shop-cart_checkout {
+    width: 30%;
+    height: 214px;
+    background-color: #f5f3f3;
+    position: relative;
+ }
+.shop-cart_proceed_checkout {
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 30px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 45px;
+    border: 1px solid transparent;
+    
+
+}
+.shop-cart_proceed_checkout:hover {
+    background-color: #f5f3f3;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
+.shop-cart_checkout_price {
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 41px;
+    margin-top: 20px;
+}
