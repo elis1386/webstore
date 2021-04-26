@@ -19,7 +19,7 @@
         <div class="container top-header">
             <div class="top-left">
                 <a class="logo" href="index.html"><img src="img/logo1.png" alt="logo">
-                    <p>BRAN<span>D</span></p>
+                    <p class="bran">BRAN<span>D</span></p>
                 </a>
                 <form class="top-form" action="#">
                     <ul class="browse-menu">
@@ -274,7 +274,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a class="menu-link" href="#">Accesoriese</a>
+                <li class="last"><a class="menu-link" href="#">Accesoriese</a>
                     <div class="menu-link-box">
                         <div class="menu-img-box">
                             <div class="menu-box-list-unit-img">
@@ -449,74 +449,118 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="product.html">Men</a></li>
+                        <li><a href="product.html">Women</a></li>
                         <li><a href="#"></a> New Arrivals</a></li>
                     </ol>
                 </nav>
             </div>
         </div>
     </div>
-    <section class="shop-cart_items">
+    <section>
         <div class="container">
-            <div class="shop-cart_headings">
-                <h1>Product Details</h1>
-                <h1>Unite Price</h1>
-                <h1>Quantity</h1>
-                <h1>Shipping</h1>
-                <h1>Subtotal</h1>
-                <h1>ACTION</h1>
-            </div>
-            <div class="shop-cart_item">
-                <a href="product-page.html">
-                    <div class="item-details">
-                        <img src="img/shop-cart-img1.png" class="shop-cart_img" alt="product-photo">
-                </a>
-                <h2>Mango People T-shirt</h2>
-                <p>Color: Red</p>
-                <p>Size: Xll</p>
-            </div>
-            <div class="headings_details">
-                <p>$150</p>
-                <input type="number" placeholder="2">
-                <p>free</p>
-                <p>$300</p>
-                <i class="fad fa-times-circle"></i>
-            </div>
-        </div>
+            <table class="shop-cart_items">
+                <thead>
+                    <tr>
+                        <th>Product details</th>
+                        <th>unit price</th>
+                        <th>quantity</th>
+                        <th>shipping</th>
+                        <th>subtotal</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="item-details">
+                            <a href="product-page.html">
+                                <img src="img/shop-cart-img1.png" class="shop-cart_img" alt="product-photo">
+                                <h2>Mango People T-shirt</h2>
+                                <p><strong>Color:</strong> Red</p>
+                                <p><strong>Size:</strong> XLL</p>
+                            </a>
+                        </td>
+                        <td>$150</td>
+                        <td><input type="number" placeholder="2"></td>
+                        <td>free</td>
+                        <td>$300</td>
+                        <td><i class="fas fa-times-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="item-details"><a href="product-page.html">
+                                <img src="img/shop-cart-img2.png" class="shop-cart_img" alt="product-photo">
+                                <h2>Mango People T-shirt</h2>
+                                <p><strong>Color:</strong> Red</p>
+                                <p><strong>Size:</strong> XLL</p>
+                            </a>
+                        </td>
+                        <td>$150</td>
+                        <td><input type="number" placeholder="2"></td>
+                        <td>free</td>
+                        <td>$300</td>
+                        <td><i class="fas fa-times-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="item-details"><a href="product-page.html">
+                                <img src="img/shop-cart-img3.png" class="shop-cart_img" alt="product-photo">
+                                <h2>Mango People T-shirt</h2>
+                                <p><strong>Color:</strong> Red</p>
+                                <p><strong>Size:</strong> XLL</p>
+                            </a>
+                        </td>
+                        <td>$150</td>
+                        <td><input type="number" placeholder="2"></td>
+                        <td>free</td>
+                        <td>$300</td>
+                        <td><i class="fas fa-times-circle"></i></td>
+                    </tr>
+                </tbody>
+            </table>
 
-        <div class="action-button">
-            <a class="shop-cart_action_button" href="#">clear shopping cart</a>
-            <a class="shop-cart_action_button" href="#">continue shopping</a>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="action-button">
+                <a class="shop-cart_action_button" href="#">clear shopping cart</a>
+                <a class="shop-cart_action_button" href="#">continue shopping</a>
+            </div>
         </div>
-        </div>
+        <form class="shop-cart">
+            <div class="container">
+                <div class="shop-cart_order_form">
+                    <div class="shop-cart_shipping_adress">
+                        <label for="shipping-adress" name="shipping-adress">Shipping-adress</label>
+                        <select class="form_frame">
+                            <option>Bangladesh</option>
+                            <option>Bulgaria</option>
+                        </select>
+                        <input class="form_frame" type="text" placeholder="State">
+                        <input class="form_frame" type="text" placeholder="Postcode/Zip">
+                        <button class="shop_cart_button" type="submit">GET A QUOTE</button>
+                    </div>
+                    <div class="shop-cart_coupon">
+                        <label for="coupon-discount" name="coupon-discount">coupon coupon-discount</label>
+                        <input class="form_frame" type="text" placeholder="State">
+                        <button class="shop_cart_button" type="submit">APPLY COUPON</button>
+                    </div>
+                    <div class="shop-cart_checkout">
+                        <p class="checkout_price">sub total &ensp; $900</p>
+                        <p class="checkout_grand_price">Grand total &ensp; $900</p>
+                        <a class="shop-cart_proceed_checkout" href="#">proceed to checkout</a>
+
+                    </div>
+                </div>
+            </div>
+        </form>
     </section>
-    <form class="shop-cart">
-        <div class="container">
-            <div class="shop-cart_order_form">
-                <div class="shop-cart_shipping_adress">
-                    <label for="shipping-adress" name="shipping-adress">Shipping-adress</label>
-                    <select class="form_frame">
-                        <option>Bangladesh</option>
-                        <option>Bulgaria</option>
-                    </select>
-                    <input class="form_frame" type="text" placeholder="State">
-                    <input class="form_frame" type="text" placeholder="Postcode/Zip">
-                    <button class="shop_cart_button" type="submit">GET A QUOTE</button>
-                </div>
-                <div class="shop-cart_coupon">
-                    <label for="coupon-discount" name="coupon-discount">coupon coupon-discount</label>
-                    <input class="form_frame" type="text" placeholder="State">
-                    <button class="shop_cart_button" type="submit">APPLY COUPON</button>
-                </div>
-                <div class="shop-cart_checkout">
-                    <p>sub total $900</p>
-                    <p class="shop-cart_checkout_price">Grand total $900</p>
-                    <a class="shop-cart_proceed_checkout" href="#">proceed to checkout</a>
-
-                </div>
-            </div>
-        </div>
-    </form>
 
     <div class="comunity">
         <img src="img/com-pic.png" alt="com background" style="opacity:0.25;filter:alpha(opacity=25)">
