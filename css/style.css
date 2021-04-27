@@ -1321,8 +1321,6 @@ li {
 .dropdown-menu {
     padding-left: 15px;
     line-height: 33px;
-    display: none;
-    position: absolute;
     background-color: #ffffff;
     z-index: 1;
 }
