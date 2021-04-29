@@ -21,18 +21,40 @@
                 <a class="logo" href="index.html"><img src="img/logo1.png" alt="logo">
                     <p class="bran">BRAN<span>D</span></p>
                 </a>
-                <form class="top-form" action="#">
-                    <ul class="browse-menu">
-                        <li><a href="#">Browse
-                                <i class="fas fa-caret-down"></i>
-                            </a></li>
-                    </ul>
-                    <input class="form-search" type="search" placeholder="Search for Item..." aria-label="Search">
-                    <button type="submit"><i class="fas fa-search"></i></button>
-                </form>
+                <div class="search-form">
+                    <details class="browse-dropdown">
+                        <summary class="browse-menu">Browse&nbsp;<i class="fas fa-caret-down"></i></summary>
+                        <div class="browse-menu_dropdown">
+                            <p class="browse-menu_dropdown_heading">Women</p>
+                            <ul>
+                                <li><a class="browse-menu_dropdown_text" href="#">Dresses</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Tops</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Sweaters/Knits</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Jackets/Coats</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Blazers</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Denim</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Leggings/Pants</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Skirts/Shorts</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Accessories</a></li>
+                            </ul>
+                            <p class="browse-menu_dropdown_heading">Men</p>
+                            <ul>
+                                <li><a class="browse-menu_dropdown_text" href="#">Tees/Tank tops</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Shirts/Polos</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Sweaters</a></li>
+                                <li><a class="browse-menu_dropdown_text" href="#">Sweatshirts/Hoodies</a></li>
+                                <li><a class="browse-menu_dropdown_text last" href="#">Blazers</a></li>
+                            </ul>
+                        </div>
+                    </details>
+                    <form class="top-form" action="#">
+                        <input class="form-search" type="search" placeholder="Search for Item..." aria-label="Search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
             </div>
             <div class="top-right">
-                <img class="cart" src="img/Forma_1.svg" alt="cart">
+                <a href="shopping-cart.html"><img class="cart" src="img/Forma_1.svg" alt="cart"></a>
                 <a class="top-button my-acc" href="#">My account</a>
             </div>
         </div>

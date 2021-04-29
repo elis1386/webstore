@@ -29,11 +29,9 @@ a {
 
 .top-left {
     display: flex;
-    align-items: center;
 }
 .form-search {
     padding-left: 18px;
-    margin-top: 13px;
     border-style: solid;
     border-width: 1px;
     border-right-width: 0;
@@ -45,7 +43,6 @@ a {
 }
 
 .top-form button {
-    margin-top: 13px;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     border-style: solid;
@@ -56,8 +53,13 @@ a {
     width: 40px;
     height: 38px;
 }
+.search-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
 .browse-menu {
-    margin-top: 13px;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     border-style: solid;
@@ -67,30 +69,54 @@ a {
     background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
     width: 87px;
     height: 38px;
-    margin-left: 35px;
-}
-
-.browse-menu li {
-    display: flex;
-    position: relative;
-    margin-top: 9px;
     list-style: none;
+    text-align: center;
+    padding-top: 7px;
 }
-
-.browse-menu a {
-    font-family: 'Lato', sans-serif;
-    color: #222222;
+.browse-dropdown {
+    display: block;
+    width: 262px;
+    margin-left: 37px;
+    z-index: 1;
+  
+}
+.browse-menu_dropdown {
+    background-color: #ffffff;
+    padding: 20px 0 20px 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    
+}
+.browse-menu_dropdown_heading {
+    color: #232323;
+    font-family: Lato;
     font-size: 14px;
-    font-weight: 300;
-    line-height: normal;
-    margin-left: 13px;
-    text-decoration: none;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
 }
 
+
+.browse-menu_dropdown_text {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+    
+}
+.browse-menu_dropdown_text:hover {
+    color: #f16d7f ;
+}
 
 .top-right {
     display: flex;
     align-items: center;
+    margin-top: 32px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -117,6 +143,7 @@ a {
 
 .top-form {
     display: flex;
+    margin-left: -176px;
 }
 
 .top-button {
@@ -319,6 +346,7 @@ a {
 
 .menu li:hover .menu-link-box {
     display: flex;
+    z-index: 1;
 }
 
 .menu-link:hover {
@@ -919,7 +947,6 @@ a {
 /* Single Page  */
 .new_arrivals {
     background-color: #f8f3f4;
-    margin-bottom: 90px;
 }
 .title {
     display: flex;
@@ -1398,6 +1425,9 @@ li {
 }
 .product-list-img:hover {
     filter: brightness(50%);
+}
+.product-list-text-box {
+    padding: 20px 15px;
 }
 .product-list-text {
     color: #222222;
