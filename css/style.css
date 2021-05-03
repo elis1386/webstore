@@ -211,7 +211,7 @@ a {
     text-transform: uppercase;
     margin-top: 10px;
 }
-.fa-times-circle{
+.icon i {
     margin-right: 15px;
     margin-top: 35px;
     color: #c0c0c0;
@@ -1260,10 +1260,11 @@ a {
 }
 /* .form-button:hover {
     background-color: #ef5b70;
-    
+    border: 1px solid transparent;
+   
 }
-.form-button:hover .form-button-cart {
-    display: none;
+.form-button-text:hover {
+    color: white;
 } */
     
 .form-button-text {
@@ -1809,6 +1810,7 @@ li {
     text-transform: uppercase;
     border-bottom: 1px solid #e8e8e8;
     padding: 33px 0;
+  outline: none;
 }
 .checkout-right {
     display: flex;
